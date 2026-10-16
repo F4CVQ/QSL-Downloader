@@ -12,12 +12,18 @@ Application Android qui regroupe vos confirmations QSL de
 Téléchargez `QSL-Downloader.apk`, ouvrez-le sur votre téléphone Android (64 bits) et autorisez l’installation
 depuis cette source si Android le demande.
 
+L’application vous prévient au démarrage quand une nouvelle version est disponible.
+
+> **Vous avez la version 1.0.0 ou 1.0.1 ?** Elles étaient signées avec une clé de test : désinstallez-les
+> une fois avant d’installer la 1.1.0, puis ressaisissez vos identifiants. Les versions suivantes
+> s’installeront normalement par-dessus.
+
 ## Fonctions
 
 - **Nouvelles confirmations** depuis votre dernière visite, ou toutes, avec le nom de l’entité DXCC
 - **Filtres** par site (un ou plusieurs), bande et mode (CW / phonie / numérique)
-- **Carte QSL** de chaque confirmation, à enregistrer dans la galerie ou à partager ;
-  pour eQSL, la carte originale envoyée par le correspondant
+- **Carte QSL** de chaque confirmation, avec le **drapeau du pays DXCC**, à enregistrer dans la galerie
+  ou à partager ; pour eQSL, la carte originale envoyée par le correspondant
 - **Carte du monde** des confirmations, hors ligne, avec zoom au pincement
 - **Diplômes** : avancement DXCC, 5BDXCC, WAS, Triple Play, VUCC, WAZ, WPX, WAC, eDX100, eWAS…
   avec la liste des éléments confirmés et manquants
