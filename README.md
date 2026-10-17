@@ -82,7 +82,7 @@ Toutes les confirmations déjà reçues restent enregistrées dans le téléphon
 |---|---|
 | eQSL | indicatif + mot de passe (+ QTH Nickname si plusieurs comptes) |
 | LoTW | identifiant + mot de passe du **site web** LoTW (pas le certificat TQSL) |
-| Club Log | e-mail, mot de passe (ou mot de passe d’application), indicatif — aucune clé API à demander |
+| Club Log | e-mail, mot de passe (ou mot de passe d’application), indicatif — aucune clé API à demander ; synchronisation et log matching sur les 12 derniers mois |
 | QRZ.com | clé API du carnet (abonnement XML Logbook Data nécessaire pour le téléchargement) |
 | HamLog / HRDLog | aucun : import d’un export ADIF fait depuis le site |
 
