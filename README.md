@@ -24,6 +24,8 @@ L’application vous prévient au démarrage quand une nouvelle version est disp
 - **Filtres** par site (un ou plusieurs), bande et mode (CW / phonie / numérique)
 - **Carte QSL** de chaque confirmation, avec le **drapeau du pays DXCC**, à enregistrer dans la galerie
   ou à partager ; pour eQSL, la carte originale envoyée par le correspondant
+- **Log matching Club Log** : les QSO présents dans le log de vos correspondants (expéditions DX…)
+  apparaissent avec le badge **LOG MATCHÉ**, même sans QSL ni LoTW
 - **Carte du monde** des confirmations, hors ligne, avec zoom au pincement
 - **Diplômes** : avancement DXCC, 5BDXCC, WAS, Triple Play, VUCC, WAZ, WPX, WAC, eDX100, eWAS…
   avec la liste des éléments confirmés et manquants
@@ -47,6 +49,10 @@ Pour **HamLog** ou **HRDLog**, exportez votre carnet au format ADIF depuis le si
 - Le bouton **filtre** permet de choisir un ou plusieurs sites, une bande et un mode.
 - Touchez une confirmation pour voir sa **carte QSL** : **Enregistrer l’image** l’ajoute à votre galerie,
   **Partager** l’envoie par message ou e-mail. Pour eQSL, vous pouvez aussi télécharger la carte originale.
+- Le badge **LOG MATCHÉ** (Club Log) indique que le correspondant vous a dans son log. Vos QSO les plus récents
+  sont vérifiés en premier, puis la vérification se poursuit à chaque synchronisation (l’avancement s’affiche
+  sous Club Log dans l’onglet Comptes). Ce n’est pas une confirmation QSL : ces QSO ne comptent pas dans les
+  diplômes, sauf l’indicateur « DXCC confirmés + log matching ».
 
 ### 3. Carte du monde (onglet « Carte »)
 - Chaque point représente un locator (ou un pays DXCC si le locator est inconnu), coloré selon le site.
@@ -67,7 +73,7 @@ Toutes les confirmations déjà reçues restent enregistrées dans le téléphon
 |---|---|
 | eQSL | indicatif + mot de passe (+ QTH Nickname si plusieurs comptes) |
 | LoTW | identifiant + mot de passe du **site web** LoTW (pas le certificat TQSL) |
-| Club Log | e-mail, mot de passe (ou mot de passe d’application), indicatif |
+| Club Log | e-mail, mot de passe (ou mot de passe d’application), indicatif — aucune clé API à demander |
 | QRZ.com | clé API du carnet (abonnement XML Logbook Data nécessaire pour le téléchargement) |
 | HamLog / HRDLog | aucun : import d’un export ADIF fait depuis le site |
 
