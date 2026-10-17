@@ -26,6 +26,8 @@ L’application vous prévient au démarrage quand une nouvelle version est disp
   ou à partager ; pour eQSL, la carte originale envoyée par le correspondant
 - **Log matching Club Log** : les QSO présents dans le log de vos correspondants (expéditions DX…)
   apparaissent avec le badge **LOG MATCHÉ**, même sans QSL ni LoTW
+- **Expéditions DX** (onglet Club Log) : expéditions récentes et en cours, votre présence dans leur log,
+  « Nouveau DXCC » pour vous, liens OQRS et livestream
 - **Carte du monde** des confirmations, hors ligne, avec zoom au pincement
 - **Diplômes** : avancement DXCC, 5BDXCC, WAS, Triple Play, VUCC, WAZ, WPX, WAC, eDX100, eWAS…
   avec la liste des éléments confirmés et manquants
@@ -59,7 +61,14 @@ Pour **HamLog** ou **HRDLog**, exportez votre carnet au format ADIF depuis le si
 - **Pincez à deux doigts** ou utilisez **+ / −** pour zoomer, **glissez** pour vous déplacer.
 - Touchez un point pour afficher les confirmations correspondantes.
 
-### 4. Diplômes (onglet « Diplômes »)
+### 4. Club Log (onglet « Club Log »)
+- **Expéditions DX** : la liste des expéditions récentes hébergées sur Club Log. Pour chacune, l’application
+  vérifie si vous êtes **dans leur log** (bandes et modes) et signale un **nouveau DXCC** si l’entité n’est
+  encore confirmée sur aucun site. **OQRS** ouvre la page de demande de QSL, **Live** le suivi en direct.
+- **Log matching** : tous les QSO présents dans le log de vos correspondants, avec l’état de la vérification.
+- Tirez la liste vers le bas pour actualiser.
+
+### 5. Diplômes (onglet « Diplômes »)
 - Choisissez un site : l’avancement de chaque diplôme s’affiche avec une barre de progression.
 - Touchez un diplôme pour voir les éléments **confirmés** et ceux qui **manquent** encore.
 - L’avancement est calculé à partir de vos confirmations téléchargées ; il peut différer légèrement des
